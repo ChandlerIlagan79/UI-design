@@ -42,7 +42,7 @@ nav > ul > li > a:hover, nav li:focus-within > a { background: var(--green); }
 /* Sections */
 .section { padding: 64px max(24px, calc((100% - 1100px) / 2)); }
 .section.alt { background: var(--alt); }
-.section-head { text-align: center; margin-bottom: 36px; }
+.section-head { text-align: center; margin-bottom: 36px; border: 2px; }
 .section h2 { font-size: 1.9rem; font-weight: 600; color: var(--green-dark); }
 .section-head p { color: var(--muted); margin-top: 6px; }
 .two-col, .three-col { display: grid; gap: 24px; }
