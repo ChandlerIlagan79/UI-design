@@ -48,9 +48,9 @@ nav > ul > li > a:hover, nav li:focus-within > a { background: var(--green); }
 .two-col, .three-col { display: grid; gap: 24px; }
 .two-col { grid-template-columns: repeat(2, 1fr); }
 .three-col { grid-template-columns: repeat(3, 1fr); }
-.card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 26px; }
+.card { background: #ffffff; border: 3px solid var(--line); border-radius: 10px; padding: 26px; border-color:rgba(28, 132, 28, 0.918) }
 .card h3 { font-size: 1.2rem; color: var(--green); margin-bottom: 10px; }
-.card.accent { border-top: 5px solid var(--yellow); }
+.card.accent { border: 5px solid var(--yellow); }
 
 .split { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center; }
 .split.reverse { grid-template-columns: 1fr 1.2fr; }
