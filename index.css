@@ -288,6 +288,10 @@ nav li:focus-within > a {
   object-fit: cover;
 }
 
+.photo.logo-fit {
+  background: #ffffff;
+}
+
 .photo.logo-fit img {
   object-fit: contain;
   padding: 16px;
